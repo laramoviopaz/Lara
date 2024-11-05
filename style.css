@@ -1,7 +1,20 @@
 body {
-   color: rgb(221, 167, 223);
-    background: rgb(20, 20, 20);
+   color: rgb(0, 0, 0);
+    background: rgb(228, 171, 225);
     font-family: "Abril Fatface", serif;
     margin: 0px;
     margin-bottom: 100px;
+}
+.chamada{
+    background: rgb(101, 176, 179);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+header{
+    color:aliceblue;
+    font-size: 40px;
+    border-bottom: solid 4px aliceblue;
+    padding: 20px;
 }
