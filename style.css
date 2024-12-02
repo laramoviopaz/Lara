@@ -21,3 +21,25 @@ header{
 .chamada-texto{
     margin-right: 5%;
 }
+.categoria{
+    background: pink;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria-videos img{
+    height: 200px; 
+    opacity: 0.5;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border:3px solid blueviolet;
+}
+h2{
+    font-size: 25px;
+}
